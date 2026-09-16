@@ -309,6 +309,3 @@ AA 04 00 AE    # 急停
 
 ---
 
-## 联系方式
-- 邮箱：
-- GitHub：https://github.com/mobei-1207
