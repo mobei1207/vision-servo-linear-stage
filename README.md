@@ -101,35 +101,38 @@ vision-servo-linear-stage/
 ├── README.md
 ├── code/
 │   ├── upper_computer/              # 上位机 Python + OpenCV
-│   │   ├── main.py                  # 主程序
+│   │   ├── uhwzigxu0004.py          # 主程序
 │   │   ├── requirements.txt         # Python 依赖
-│   │   └── ...
+│   │   └── README.md
 │   └── lower_computer/              # 下位机 STM32 Keil 工程
-│       ├── Core/
+│       ├── Library/
 │       ├── Hardware/
 │       ├── User/
-│       └── ...
+│       ├── System/
+│       ├── Start/
+│       ├── Project.uvoptx
+│       ├── Project.uvprojx
+│       └── README.md
 ├── hardware/
-│   ├── 电气接线图.pdf
-│   ├── 供电拓扑图.pdf
-│   ├── 共阳极接口电路.png
+│   ├── Sheet10009.pdf               # 电气原理图
+│   ├── 3-2.jpg                      # 共阳极接口电路
+│   ├── 3-1 拷贝.png                 # 总体接线图 
 │   └── IO分配表.md
 ├── mechanical/
-│   ├── assembly.zip                 # SolidWorks 装配体与零件
-│   ├── assembly.STEP                # 通用格式
-│   ├── assembly_exploded.png        # 爆炸图截图
-│   └── drawings.pdf                 # 工程图
+│   ├── mechanical/0003-ECB80D-L200-S500-R-750W+减速机.STEP                 # SolidWorks 装配体与零件
+│   ├── L型支架.STEP                                                        
+│   ├── 相机.STEP
+│   ├── 装配体6.STEP
+│   └── 装配体6sw工程图.pdf                                                  # 工程图
 ├── docs/
-│   ├── 设计说明书.pdf
-│   ├── 通信协议.md
-│   ├── IO分配表.md
-│   └── 调试记录.md
+│   ├── 设计说明书 - 副本.pdf
+│   └── 通信协议.md
 └── media/
     ├── demo.mp4                     # 演示视频（或网盘链接）
-    └── screenshots/
-        ├── upper_computer_ui.png
-        ├── serial_debug.png
-        └── platform_photo.png
+    ├── 1-1.png                      #系统结构图
+    ├── 4-1.png                      #上位机流程图
+    ├── 4-2.png                      #下位机流程图
+    └── README.md
 ```
 
 ---
